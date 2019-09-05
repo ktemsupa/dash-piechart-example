@@ -4,16 +4,16 @@ import dash_html_components as html
 import plotly.graph_objs as go
 
 ########### Define your variables ######
-myheading = "What's your favorite Dunkin' Donut?"
+myheading = "What's your favorite juice"
 mytitle = "Top 3 Flavors"
-mylabels = ['Chocolate Frosted', 'French Cruller', 'Boston Creme']
-myvalues = [45,25,7]
-color1 = 'e11383'
-color2 = 'f5821f'
-color3 = '683817'
-tabtitle = 'dunkin'
-sourceurl = 'https://brandpalettes.com/dunkin-donuts-color-codes/'
-githublink = 'https://github.com/austinlasseter/dash-piechart-example'
+mylabels = ['Celery', 'Acai', 'Carrot']
+myvalues = [100,75,50]
+color1 = '90ee90'
+color2 = '9370db'
+color3 = 'ffa500'
+tabtitle = 'Healthy Juices'
+sourceurl = 'https://www.modernhoney.com/healthy-juice-cleanse-recipes/'
+githublink = 'https://github.com/ktemsupasiri/dash-piechart-example'
 
 ########### Set up the chart
 mydata = go.Pie(

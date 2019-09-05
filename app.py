@@ -13,7 +13,7 @@ color2 = '9370db'
 color3 = 'ffa500'
 tabtitle = 'Healthy Juices'
 sourceurl = 'https://www.modernhoney.com/healthy-juice-cleanse-recipes/'
-githublink = 'https://github.com/ktemsupasiri/dash-piechart-example'
+githublink = 'https://github.com/ktemsupa/dash-piechart-example'
 
 ########### Set up the chart
 mydata = go.Pie(
